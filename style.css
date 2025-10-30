@@ -1,0 +1,83 @@
+/* Tipografía base */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #1e293b; /* Azul oscuro */
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #111827;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #3b82f6;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+  padding: 40px 20px;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.contenido {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenido h2 {
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* Pie de página */
+footer {
+  background-color: #111827;
+  color: #94a3b8;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
